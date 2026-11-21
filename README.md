@@ -9,7 +9,7 @@ sade bir Path of Building görüntüleyici ve Awakened PoE Trade tarzı fiyat so
 
 *A second-screen companion for Path of Exile 1: campaign guide, build guides, a lightweight PoB viewer and price checking.*
 
-[![İndir](https://img.shields.io/github/v/release/kiddhazel/wraeclast-rehberi?label=indir&color=c8a15a&style=for-the-badge)](https://github.com/kiddhazel/wraeclast-rehberi/releases/latest)
+[![İndir](https://img.shields.io/badge/indir-v0.1.0-c8a15a?style=for-the-badge&logo=github)](https://github.com/kiddhazel/wraeclast-rehberi/releases/latest)
 ![Platform](https://img.shields.io/badge/Windows-10%20%2F%2011-1c1711?style=for-the-badge&logo=windows)
 ![Rust](https://img.shields.io/badge/Rust-Tauri%202-af6025?style=for-the-badge&logo=rust)
 ![Lig](https://img.shields.io/badge/PoE-3.30%20Covens-15110c?style=for-the-badge)
