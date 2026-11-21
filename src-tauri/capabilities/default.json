@@ -1,0 +1,14 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Ana pencere ve fiyat popup'ı için izinler",
+  "windows": ["main", "popup"],
+  "permissions": [
+    "core:default",
+    "opener:default",
+    "dialog:allow-open",
+    "core:window:allow-set-always-on-top",
+    "core:window:allow-hide",
+    "core:window:allow-start-dragging"
+  ]
+}

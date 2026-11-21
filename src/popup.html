@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fiyat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="popup">
+  <header class="popup-bar" data-tauri-drag-region>
+    <span class="popup-title" data-tauri-drag-region>
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M16 5 L25 16 L16 27 L7 16 Z" fill="var(--unique)"/><path d="M16 11 L21 16 L16 21 L11 16 Z" fill="var(--bg)"/></svg>
+      Fiyat
+    </span>
+    <span class="popup-league" id="popup-league" data-tauri-drag-region></span>
+    <button class="icon-btn" id="popup-pin" title="Odak kaybolunca kapanmasın">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M9 3h6l-1 6 4 4H6l4-4-1-6Z"/><path d="M12 13v8"/></svg>
+    </button>
+    <button class="icon-btn" id="popup-close" title="Kapat (Esc)">✕</button>
+  </header>
+  <main class="popup-body" id="popup-view">
+    <p class="empty-hint">Oyunda bir item'ın üzerinde Ctrl+C'ye bas.</p>
+  </main>
+
+  <script src="common.js"></script>
+  <script src="price-core.js"></script>
+  <script src="price-ui.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

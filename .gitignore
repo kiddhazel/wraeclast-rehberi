@@ -1,0 +1,17 @@
+# Rust / Tauri derleme çıktıları
+/src-tauri/target/
+/src-tauri/gen/
+
+# Makineye özel cargo ayarı (ör. kısa target-dir yolu)
+/src-tauri/.cargo/
+
+# Kurulum dosyaları GitHub Releases'e yüklenir
+/dist/
+*.exe
+*.msi
+
+# Editör / sistem
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

@@ -1,0 +1,27 @@
+[package]
+name = "wraeclast-rehberi"
+version = "0.1.0"
+description = "Path of Exile 1 için ikinci ekran kampanya ve build rehberi"
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-opener = "2"
+tauri-plugin-dialog = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+regex = "1"
+reqwest = "0.12"
+arboard = { version = "3", default-features = false }
+
+[target.'cfg(windows)'.dependencies]
+winreg = "0.55"
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1
+strip = true
